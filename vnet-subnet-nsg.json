@@ -34,7 +34,7 @@
       "type": "string",
       "defaultValue": "dev",
       "metadata": {
-        "description": "Environment code"
+        "description": "Environment code."
       }
     },
     "projectTag": {
