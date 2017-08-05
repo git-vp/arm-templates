@@ -1,0 +1,30 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vnetPrefix": {
+            "value": "10.1.0.0/16"
+        },
+        "frontEndSubnetPrefix": {
+            "value": "10.1.1.0/24"
+        },
+        "backEndSubnetPrefix": {
+            "value": "10.1.2.0/24"
+        },
+        "environmentCode": {
+            "value": "dev"
+        },
+        "projectCode": {
+            "value": "app"
+        },
+        "environmentTag": {
+            "value": "development"
+        },
+        "projectTag": {
+            "value": "application"
+        },
+        "creationDateTime": {
+            "value": "UTC"
+        }
+    }
+}
