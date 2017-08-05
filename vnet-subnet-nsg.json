@@ -27,7 +27,7 @@
       "type": "string",
       "defaultValue": "app",
       "metadata": {
-        "description": "Project code"
+        "description": "Project code."
       }
     },
     "environmentCode": {
